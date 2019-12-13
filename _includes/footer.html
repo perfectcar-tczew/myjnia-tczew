@@ -1,0 +1,26 @@
+<footer id="footer">
+	<ul class="icons">
+        {% if site.google_url %}
+        <li><a href="{{ site.google_url }}" class="icon fa-google" target="_blank"><span class="label">Google</span></a></li>
+        {% endif %}
+
+        {% if site.facebook_url %}
+        <li><a href="{{ site.facebook_url }}" class="icon fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
+        {% endif %}
+        
+        {% if site.phone_url %}
+        <li><a href="tel:{{ site.phone_url }}" class="icon fa-phone" target="_blank"><span class="label">Telefon</span></a></li>
+        {% endif %}
+        
+        {% if site.e-mail_url %}
+        <li><a href="mailto:{{ site.e-mail_url }}" class="icon fa-envelope" target="_blank"><span class="label">E-mail</span></a></li>
+        {% endif %}
+        
+	</ul>
+	<ul class="copyright">
+		<li>Copyright &copy; by {{ site.title }}</li>  
+	</ul>
+</footer>
+
+<!--[if lte IE 8]><script src="{{ site.url }}{{ site.baseurl }}/assets/js/ie/respond.min.js"></script><![endif]-->
+<script src="{{ site.url }}{{ site.baseurl }}/assets/js/main.js"></script>
