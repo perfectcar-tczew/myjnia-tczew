@@ -1,2 +1,2 @@
-# myjnia-tczew
-Repozytorium plików strony http://myjnia-tczew.pl/
+# perfectcar.tczew.pl
+Repozytorium plików strony http://perfectcar.tczew.pl/
